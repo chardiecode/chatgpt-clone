@@ -4,7 +4,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --watch"
+    "test": "jest --watchAll",
+    "test:coverage": "jest --collectCoverage",
+    "test:verbose-watch": "jest --verbose --watchAll"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.16",
