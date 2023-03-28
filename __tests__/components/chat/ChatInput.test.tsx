@@ -1,5 +1,4 @@
-import '@testing-library/jest-dom'
-import { render, screen, getByRole } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import { useSession } from "next-auth/react";
 import ChatInput from "@/components/chat/ChatInput";
 
